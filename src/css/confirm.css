@@ -1,0 +1,19 @@
+.confirm-buy {
+  text-align: right;
+}
+
+.total-price {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.buy-btn {
+  padding: 10px 30px;
+  text-transform: uppercase;
+  color: rgb(134, 134, 134);
+}
+
+.buy-btn-active {
+  color: rgb(0, 0, 0);
+}

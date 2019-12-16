@@ -1,0 +1,103 @@
+.form {
+  width: 100%;
+}
+
+.container {
+  padding: 10px;
+  max-width: 450px;
+}
+
+form {
+  padding: 5px;
+}
+
+.line {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  justify-content: flex-end;
+}
+
+.input-line-wrap {
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.input-line {
+  width: 100%;
+  color: rgb(99, 99, 99);
+  margin: 5px 0 2px 0;
+  height: 30px;
+  border: 2px solid #adadad42;
+  border-radius: 3px;
+}
+
+select {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.input-line:hover {
+  border: 2px solid #1a94e6d3;
+}
+
+label {
+  flex-basis: 200px;
+}
+
+.submit-btn {
+  justify-self: flex-end;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 40px;
+  color: rgb(134, 134, 134);
+  font-size: 18px;
+  height: 50px;
+  max-width: 150px;
+}
+
+.btn-active {
+  color: rgb(0, 0, 0);
+}
+
+.error {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: red;
+  margin: 0;
+  line-height: 1;
+}
+
+.ref {
+  margin: 5px auto;
+  color: #c9c9c9;
+}
+
+.ref:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .line {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .input-line-wrap {
+    width: 100%;
+  }
+  .input-line {
+    margin-bottom: 15px;
+  }
+
+  .submit-btn {
+    max-width: 100%;
+  }
+
+  label {
+    flex-basis: 15px;
+  }
+}

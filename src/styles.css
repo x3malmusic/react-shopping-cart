@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+  .product-content {
+    border: none;
+  }
+  .product-count {
+    margin-right: -26px;
+    margin-top: 0;
+    flex-grow: 1;
+  }
+  .product-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product-trash {
+    margin: 0;
+    margin-right: 10px;
+    order: 1;
+  }
+  .product-count-wrap {
+    padding: 0;
+    width: 100%;
+  }
+}
